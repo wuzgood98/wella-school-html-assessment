@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+h1, h2 {
+  color: #333;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  
+  form {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    button[type="submit"] {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color .2s linear;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}
+
+.video {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  
+  h2 {
+    margin-top: 0;
+  } 
+
+  iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    margin: 0 auto 15px;
+    border-radius: 8px;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    color: #007BFF;
+    text-decoration: none;
+    transition: background-color .2s linear;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.information {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    
+    th, td {
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    tr {
+      &:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      &:hover {
+        background-color: #f1f1f1;
+      }
+    }
+    
+    th {
+      background-color: #f4f4f9;
+    }
+    
+    td button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color .2s linear;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}
